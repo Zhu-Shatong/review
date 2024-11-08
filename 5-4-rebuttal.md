@@ -40,5 +40,16 @@
 
 ### 4. 参数选择
 
+Regarding the selection of the constant $C$, we agree that these choices may appear heuristic. We conducted an ablation study for $C$, and while the value of $C=0.05$ in the paper is not necessarily optimal, we found that setting $C = 1$ leads to the best performance in the predator-prey scenario. We appreciate your suggestion, and the significant performance improvement supports the theoretical contributions of our paper. Due to space limitations, we are only showing the results for $C = 1$ and key steps:
+
+
+| C   / Steps | 0.5M   | 0.75M | 1M    | 1.5M  | 2M    |
+| ----------- | ------ | ----- | ----- | ----- | ----- |
+| 1           | -145.6 | 23.13 | 31.88 | 34.38 | 36.80 |
+
+
+
+
+
 ## Questions
 
